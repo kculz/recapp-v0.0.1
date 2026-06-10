@@ -1,0 +1,106 @@
+<USER_REQUEST>
+
+SOFTWARE REQUIREMENTS SPECIFICATION
+Rehabilitation & Counseling Client Portal
+
+Document Version:  1.0 — Initial Release
+Prepared By:  Internal Product Team
+Target Audience:  Rehabilitation Centre Management & Development Team
+Classification:  CONFIDENTIAL — Internal Use Only
+Date:  June 2026
+Document Status:  Draft — Pending Stakeholder Review
+
+Table of Contents
+
+1.  Introduction & Purpose	3
+2.  System Overview	4
+3.  Stakeholders & User Roles	4
+4.  Functional Requirements	5
+   4.1  User Registration & Authentication	5
+   4.2  Personal Journal	6
+   4.3  Counseling Session Booking	6
+   4.4  Video & Audio Calls	7
+   4.5  Community & Peer Support	7
+   4.6  Direct Messaging (Counselor–Client)	8
+   4.7  Admin / Counselor Dashboard	8
+   4.8  Notifications & Reminders	9
+   4.9  Nice-to-Have Features	9
+5.  Non-Functional Requirements	11
+6.  Security & Privacy Requirements	12
+7.  System Architecture Overview	13
+8.  Constraints & Assumptions	13
+9.  Glossary	14
+10.  Revision History	14
+
+1. Introduction & Purpose
+This Software Requirements Specification (SRS) defines the complete functional, non-functional, security, and operational requirements for the Rehabilitation & Counseling Client Portal — hereafter referred to as the System.
+
+1.1 Purpose
+The System is a secure, organisation-exclusive digital platform designed to support individuals undergoing rehabilitation programmes or receiving counseling services. It provides clients with private tools to document their personal recovery journeys, engage with certified counselors, connect with peer communities, and access real-time communication facilities.
+
+1.2 Scope
+	•	The System is available only to clients registered by the organisation; no public self-registration is permitted.
+	•	It serves two primary client tracks: Rehabilitation Clients and Counseling Clients.
+	•	Counselors and administrators operate the System through elevated-access dashboards.
+	•	The platform spans mobile (iOS & Android) and web (desktop/tablet) surfaces.
+
+1.3 Objecti
+<truncated 20794 bytes>
+th Insurance Portability and Accountability Act — US healthcare data privacy standard used as a global best-practice benchmark.
+GDPR
+General Data Protection Regulation — EU data privacy framework applicable to organisations handling EU resident data.
+MVP
+Minimum Viable Product — the smallest feature set required for a production launch.
+Counselor
+Certified mental health or rehabilitation professional employed by the organisation.
+Crisis Keyword
+Pre-defined words/phrases in posts or messages that trigger a safety alert to a counselor.
+DPA
+Data Processing Agreement — a contract governing how a third party handles personal data.
+
+10. Revision History
+
+Version
+Date
+Description
+Author
+1.0
+June 2026
+Initial SRS — full feature definition for MVP and future phases.
+Product Team
+
+END OF DOCUMENT
+This document is confidential and intended solely for authorised personnel of the organisation.
+
+
+
+
+
+
+this is the SRS Document and on the good to have I want to have the following
+
+Progress & Goal Tracking
+Resource Library
+Group Sessions
+Family/Support Person Module
+Offline Mode (to allow jounaliling)
+
+
+
+so far we dont have firebase paid to use push notification but if they is an alternbative lets use that 
+
+also we are still using email for otp sms will be integrated on a later version 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-06-10T11:51:22+02:00.
+
+The user's current state is as follows:
+Active Document: /Users/greycode_dev/Desktop/recapp/server/src/controllers/userController.js (LANGUAGE_JAVASCRIPT)
+Cursor is on line: 1
+Other open documents:
+- /Users/greycode_dev/Desktop/recapp/mobileapp/nativewind-env.d.ts (LANGUAGE_TYPESCRIPT)
+- /Users/greycode_dev/Desktop/recapp/mobileapp/tailwind.config.js (LANGUAGE_JAVASCRIPT)
+- /Users/greycode_dev/Desktop/recapp/mobileapp/src/app/index.tsx (LANGUAGE_TSX)
+- /Users/greycode_dev/Desktop/recapp/server/src/controllers/userController.js (LANGUAGE_JAVASCRIPT)
+- /Users/greycode_dev/Desktop/recapp/mobileapp/src/global.css (LANGUAGE_CSS)
+</ADDITIONAL_METADATA>

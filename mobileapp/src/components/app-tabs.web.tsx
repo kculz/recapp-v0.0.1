@@ -24,14 +24,30 @@ export default function AppTabs() {
           <TabTrigger name="home" href="/" asChild>
             <TabButton>Home</TabButton>
           </TabTrigger>
+          <TabTrigger name="journal" href="/journal" asChild>
+            <TabButton>Journal</TabButton>
+          </TabTrigger>
+          <TabTrigger name="progress" href="/progress" asChild>
+            <TabButton>Progress</TabButton>
+          </TabTrigger>
+          <TabTrigger name="library" href="/library" asChild>
+            <TabButton>Library</TabButton>
+          </TabTrigger>
+          <TabTrigger name="groups" href="/groups" asChild>
+            <TabButton>Groups</TabButton>
+          </TabTrigger>
+          <TabTrigger name="family" href="/family" asChild>
+            <TabButton>Family</TabButton>
+          </TabTrigger>
           <TabTrigger name="explore" href="/explore" asChild>
-            <TabButton>Explore</TabButton>
+            <TabButton>Community</TabButton>
           </TabTrigger>
         </CustomTabList>
       </TabList>
     </Tabs>
   );
 }
+
 
 export function TabButton({ children, isFocused, ...props }: TabTriggerSlotProps) {
   return (

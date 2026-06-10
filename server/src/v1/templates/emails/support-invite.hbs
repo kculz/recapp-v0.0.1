@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RecApp – You've been invited</title>
+  <style>
+    body { margin: 0; padding: 0; background: #f0f9ff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .wrapper { max-width: 540px; margin: 40px auto; background: #ffffff; border-radius: 24px; overflow: hidden; box-shadow: 0 4px 30px rgba(14,165,233,0.10); }
+    .header { background: linear-gradient(135deg, #0c4a6e 0%, #0ea5e9 100%); padding: 40px 40px 30px; text-align: center; }
+    .logo { width: 56px; height: 56px; background: #ffffff; border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+    .logo-text { font-size: 28px; font-weight: 900; color: #0ea5e9; }
+    .header h1 { color: #ffffff; font-size: 22px; font-weight: 800; margin: 0 0 6px; letter-spacing: -0.3px; }
+    .header p { color: #bae6fd; font-size: 13px; margin: 0; }
+    .body { padding: 36px 40px; }
+    .greeting { font-size: 17px; font-weight: 700; color: #0c4a6e; margin: 0 0 16px; }
+    .message { font-size: 14px; color: #475569; line-height: 1.7; margin: 0 0 24px; }
+    .highlight { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 16px 20px; margin-bottom: 28px; }
+    .highlight p { font-size: 13px; color: #0369a1; margin: 0; font-weight: 600; line-height: 1.6; }
+    .btn { display: block; text-align: center; background: linear-gradient(135deg, #0ea5e9, #0284c7); color: #ffffff; font-size: 15px; font-weight: 800; text-decoration: none; padding: 16px 32px; border-radius: 14px; margin: 0 0 24px; letter-spacing: 0.2px; }
+    .note { font-size: 12px; color: #94a3b8; text-align: center; line-height: 1.6; margin: 0 0 32px; }
+    .footer { border-top: 1px solid #e0f2fe; padding: 20px 40px; text-align: center; }
+    .footer p { font-size: 11px; color: #94a3b8; margin: 0; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="logo"><span class="logo-text">R</span></div>
+      <h1>You've been invited 💙</h1>
+      <p>Someone on their recovery journey needs your support</p>
+    </div>
+
+    <div class="body">
+      <p class="greeting">Hi {{name}},</p>
+
+      <p class="message">
+        <strong>{{clientName}}</strong> has invited you to be part of their support network on <strong>RecApp</strong> — a recovery and counselling platform.
+        As a support person, you'll be able to see their progress goals and mood trends to help encourage them on their journey. 💙
+      </p>
+
+      <div class="highlight">
+        <p>🔒 Your access is limited to progress and goals only. Private journal entries and counselling messages remain confidential.</p>
+      </div>
+
+      <a href="{{acceptUrl}}" class="btn">Accept Invite & Create Account →</a>
+
+      <p class="note">
+        This invite expires in 7 days. If you didn't expect this email, you can safely ignore it.<br />
+        The invite token is: <strong>{{token}}</strong>
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>RecApp Recovery Platform · Supporting recovery, one step at a time 🌱<br />This is an automated message. Please do not reply.</p>
+    </div>
+  </div>
+</body>
+</html>
